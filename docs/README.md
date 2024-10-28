@@ -26,17 +26,6 @@ Este repositório contém um exemplo prático de **análise exploratória de dad
 
 ---
 
-## **Estrutura do Repositório**
-
-- `scripts/`: Contém o código em R para a análise.
-  - `iris_analysis.R`: Script com todas as operações descritas neste README.
-
-- `data/`: Conjuntos de dados utilizados e gerados durante o projeto.
-  - `sepal_subset.csv`: Subconjunto contendo apenas atributos de sépalas.
-  - `petal_subset.csv`: Subconjunto contendo apenas atributos de pétalas.
-
----
-
 ## **Exemplo de Código em R**
 
 ```r
@@ -67,7 +56,7 @@ plot(iris$Sepal.Length, iris$Sepal.Width,
      xlab = "Comprimento da Sépala",
      ylab = "Largura da Sépala",
      main = "Gráfico de Dispersão - Sépalas")
-
+```
 
 ## Autor
 
@@ -75,4 +64,4 @@ plot(iris$Sepal.Length, iris$Sepal.Width,
 | :---: |
 
 --------------------
-![](https://github.com/jacksonn455/kdd-topicos-especiais-computacao/blob/main/results/distribuicoes_verde_suave.png)
+![](https://github.com/jacksonn455/Analise-Exploratoria-com-o-Dataset-Iris/blob/main/results/Screenshot%202024-10-27%20213906.png)
